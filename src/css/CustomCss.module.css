@@ -1,0 +1,61 @@
+.sld{
+    padding: 20px;
+    border-radius: 8px;
+    display: block;
+}
+.selectClass{
+    padding: 20px;
+     margin-bottom: 20px;
+     border-radius: 8px;
+    
+}
+.selectClass:hover{
+    cursor: pointer;
+}
+.submitbtn{
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 40px;
+}
+.container{
+  padding: 20px;
+     background-color: rgb(255, 255, 255);
+     width: 300px;
+}
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.text_label{
+    color: black;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1rem;
+    padding: 0px 10px;
+    border-radius: 8px;
+    padding : 5px;
+}
+
+.ErrorMessage{
+    color: red;
+    font-size: 12px;
+    padding: 4px;
+    margin: 2px;
+    display: none;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
